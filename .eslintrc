@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "no-unused-vars": 0
+  },
+  "parserOptions": {},
+  "plugins": [
+    "flowtype",
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "version": "latest"
+	}
+  }
+}
