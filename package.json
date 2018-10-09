@@ -100,7 +100,7 @@
   "main": "src/index.js",
   "betterScripts": {
     "lint": {
-      "command": "npx eslint **/*.js **/*.jsx",
+      "command": "npx eslint \"**/*.{js,jsx}\"",
       "env": {
         "NODE_ENV": "development"
       }
