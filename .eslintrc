@@ -1,7 +1,10 @@
 {
   "parser": "babel-eslint",
   "parserOptions": {},
-   "plugins": [
+  "env": {
+    "browser": true
+  },
+  "plugins": [
     "flowtype",
     "react",
     "react-redux"
