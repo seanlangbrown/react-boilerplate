@@ -51,18 +51,17 @@ $ git push origin master
 <a name="use"></a>
 ### Usage: ###
 
-When using with **yarn** then use the following syntax:
-
+Always check the version of node before using this requires >=12.16.  We like [NVM](https://github.com/nvm-sh/nvm) and [installing with brew](https://medium.com/@jamesauble/install-nvm-on-mac-with-brew-adb921fb92cc).
 ```bash
-$ yarn name params
+$ nvm use 12.16
 ```
 
-Or with just **npm**:
+Use [**npm**](https://www.npmjs.com/get-npm) to run the scripts (yarn works too):
 
 ```bash
 $ npm name params
 ```
-
+- **install** - download dependencies in `package.json`
 - **start** - Run the code in development mode.
 - **build** - Build the production mode.
 - **lint** - Lint :cop: using [ESLint](https://eslint.org/).
