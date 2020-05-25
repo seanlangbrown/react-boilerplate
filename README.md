@@ -72,12 +72,8 @@ $ npm name params
 ### Project Structure: ###
 
 - react-boilerplate/src/ - All the sources should be here.
-- react-boilerplate/src/types/ - All the flow type declarations.
-- react-boilerplate/src/components/containers/ - All the React containers.
-- react-boilerplate/src/components/presentational/ - All the React presentational components without a state.
-- react-boilerplate/src/store/ - The redux store.
+- react-boilerplate/src/store/ - redux store
 - react-boilerplate/__tests__/ - All the unit tests.
-- webpack.config.js - The configuration for [webpack](https://webpack.js.org/).
 - .editorconfig - The [coding style settings](editorconfig.org) for this project.
 
 <a name="CISetup"></a>
