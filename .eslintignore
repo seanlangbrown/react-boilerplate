@@ -1,0 +1,10 @@
+node_modules
+coverage
+flow-typed
+dist
+doc
+.DS_Store
+
+\#*#
+
+.vscode

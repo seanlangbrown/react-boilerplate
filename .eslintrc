@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {},
+   "plugins": [
+    "flowtype",
+    "react",
+    "react-redux"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:flowtype/recommended",
+    "plugin:react/recommended",
+    "plugin:react-redux/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "latest"
+    },
+  },
+  "rules": {
+    "no-unused-vars": 0
+  }
+}
